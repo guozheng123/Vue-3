@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <title>透明工厂</title>
+    </head>
+    <link rel="stylesheet" href="/css/homeLoading.css" />
+    <!-- 必须引入,否则打印不正常或重叠 -->
+    <link rel="stylesheet" type="text/css" media="print" href="/css/print-lock.css" />
+    <body>
+        <input
+            id="<%- appName %>"
+            type="hidden"
+            version="<%- version %>"
+            name="<%- appName %>"
+            value="<%- buildTime %>"
+        />
+        <div id="tpf-loading">
+            <div class="ant-spin ant-spin-lg ant-spin-spinning">
+                <span class="ant-spin-dot ant-spin-dot-spin">
+                    <i class="ant-spin-dot-item"></i>
+                    <i class="ant-spin-dot-item"></i>
+                    <i class="ant-spin-dot-item"></i>
+                    <i class="ant-spin-dot-item"></i>
+                </span>
+            </div>
+        </div>
+        <div id="app"></div>
+        <script type="module" src="/src/main.ts"></script>
+        <script src="//at.alicdn.com/t/c/font_3792685_8nfkqe2xsxh.js"></script>
+    </body>
+</html>

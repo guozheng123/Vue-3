@@ -1,0 +1,2175 @@
+[
+    {
+        "name": "projectManagement",
+        "path": "/projectManagement",
+        "redirect": "noRedirect",
+        "component": "/projectManagement",
+        "meta": {
+            "title": "项目管理",
+            "icon": "icon-xiangmuguanli",
+            "doCache": false,
+            "link": null,
+            "closable": true,
+            "hidden": false
+        },
+        "children": [
+            {
+                "name": "xjjxx1",
+                "path": "/projectManagement/projectSetInfo",
+                "component": "/projectManagement/projectSetInfo",
+                "meta": {
+                    "title": "项目集信息",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                }
+            },
+            {
+                "name": "xmxx2",
+                "path": "/projectManagement/projectInfo",
+                "component": "/projectManagement/projectInfo",
+                "meta": {
+                    "title": "项目信息",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                }
+            },
+            {
+                "name": "xmgl1",
+                "path": "/projectManagement/merchantManagement",
+                "component": "/projectManagement/merchantManagement",
+                "meta": {
+                    "title": "客商管理",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                }
+            }
+        ]
+    },
+    {
+        "name": "materialManagement",
+        "path": "/materialManagement",
+        "redirect": "noRedirect",
+        "component": "/materialManagement",
+        "meta": {
+            "title": "物料管理",
+            "icon": "icon-jichushuju",
+            "doCache": false,
+            "link": null,
+            "closable": true,
+            "hidden": false
+        },
+        "children": [
+            {
+                "name": "addMaterial",
+                "path": "/materialManagement/materialData/addMaterialDataDetails",
+                "component": "/materialManagement/materialData/materialDataDetails",
+                "meta": {
+                    "title": "新增物料",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "wlzsj",
+                "path": "/materialManagement/materialData",
+                "component": "/materialManagement/materialData",
+                "meta": {
+                    "title": "物料主数据",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                }
+            },
+            {
+                "name": "editMateria",
+                "path": "/materialManagement/materialData/editMaterialDataDetails",
+                "component": "/materialManagement/materialData/materialDataDetails",
+                "meta": {
+                    "title": "编辑物料",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "materialManagement_materialProperties_unitMeasurement",
+                "path": "/materialManagement/materialProperties/unitMeasurement",
+                "component": "/materialManagement/materialProperties/unitMeasurement",
+                "meta": {
+                    "title": "计量单位",
+                    "icon": "icon-wodecaidan",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                }
+            },
+            {
+                "name": "detail",
+                "path": "/materialManagement/materialData/materialDataDetails",
+                "component": "/materialManagement/materialData/materialDataDetails",
+                "meta": {
+                    "title": "物料详情",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "productBOM",
+                "path": "/processManagement/productBOM",
+                "component": "/processManagement/productBOM",
+                "meta": {
+                    "title": "产品BOM",
+                    "icon": "",
+                    "noCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                }
+            },
+            {
+                "name": "addProductBOM",
+                "path": "/processManagement/productBOM/add",
+                "component": "/processManagement/productBOM/productBOMDetail",
+                "meta": {
+                    "title": "新增产品BOM",
+                    "icon": "",
+                    "noCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "editProductBOM",
+                "path": "/processManagement/productBOM/edit",
+                "component": "/processManagement/productBOM/productBOMDetail",
+                "meta": {
+                    "title": "编辑产品BOM",
+                    "icon": "",
+                    "noCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "detailProductBOM",
+                "path": "/processManagement/productBOM/detail",
+                "component": "/processManagement/productBOM/productBOMDetail",
+                "meta": {
+                    "title": "产品BOM详情",
+                    "icon": "",
+                    "noCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "copyProductBOM",
+                "path": "/processManagement/productBOM/copy",
+                "component": "/processManagement/productBOM/productBOMDetail",
+                "meta": {
+                    "title": "复制产品BOM",
+                    "icon": "",
+                    "noCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "upgradeProductBOM",
+                "path": "/processManagement/productBOM/upgrade",
+                "component": "/processManagement/productBOM/productBOMDetail",
+                "meta": {
+                    "title": "升版产品BOM",
+                    "icon": "",
+                    "noCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "updateProductBOM",
+                "path": "/processManagement/productBOM/update",
+                "component": "/processManagement/productBOM/productBOMDetail",
+                "meta": {
+                    "title": "更新产品BOM",
+                    "icon": "",
+                    "noCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "processManagement",
+        "path": "/processManagement",
+        "redirect": "noRedirect",
+        "component": "/MainLayout",
+        "meta": {
+            "title": "工艺管理",
+            "icon": "icon-gongyiguanli",
+            "doCache": false,
+            "link": null,
+            "closable": true,
+            "hidden": false
+        },
+        "children": [
+            {
+                "name": "addWorkDetai",
+                "path": "/processManagement/workmanshipRoute/addWorkmanshipRouteDetail",
+                "component": "/processManagement/workmanshipRoute/workmanshipRouteDetail",
+                "meta": {
+                    "title": "新增工艺",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "bjgdgl",
+                "path": "/productionManagement/workSectionManagement/editWorkshopSection",
+                "component": "/productionManagement/workSectionManagement/workSectionManagementModel",
+                "meta": {
+                    "title": "编辑工段管理",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "editWorkDeta",
+                "path": "/processManagement/workmanshipRoute/editWorkmanshipRouteDetail",
+                "component": "/processManagement/workmanshipRoute/workmanshipRouteDetail",
+                "meta": {
+                    "title": "编辑工艺",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "gdglxq",
+                "path": "/productionManagement/workSectionManagement/detailWorkshopSection",
+                "component": "/productionManagement/workSectionManagement/detailWorkshopSection",
+                "meta": {
+                    "title": "工段管理详情",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "gx1",
+                "path": "/processManagement/workingProcedure",
+                "component": "/processManagement/workingProcedure",
+                "meta": {
+                    "title": "工序",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                }
+            },
+            {
+                "name": "upgradedetai",
+                "path": "/processManagement/workmanshipRoute/upgradeWorkmanshipRouteDetail",
+                "component": "/processManagement/workmanshipRoute/workmanshipRouteDetail",
+                "meta": {
+                    "title": "升版工艺",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "xzgdgl",
+                "path": "/productionManagement/workSectionManagement/workSectionManagementModel",
+                "component": "/productionManagement/workSectionManagement/workSectionManagementModel",
+                "meta": {
+                    "title": "新增工段管理",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "zydyxq",
+                "path": "/processManagement/activityType/activityTypeDetail",
+                "component": "/processManagement/activityType/activityTypeDetail",
+                "meta": {
+                    "title": "作业单元详情",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "addESOP",
+                "path": "/processManagement/ESOP/addESOP",
+                "component": "/processManagement/ESOP/editESOP",
+                "meta": {
+                    "title": "新增ESOP",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "copyWorkDeta",
+                "path": "/processManagement/workmanshipRoute/copyWorkmanshipRouteDetail",
+                "component": "/processManagement/workmanshipRoute/workmanshipRouteDetail",
+                "meta": {
+                    "title": "复制工艺",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "processManagement_workingProcedure_workingProcedureDetail",
+                "path": "/processManagement/workingProcedure/workingProcedureDetail",
+                "component": "/processManagement/workingProcedure/workingProcedureDetail",
+                "meta": {
+                    "title": "工序详情",
+                    "icon": "icon-guanxi-dian",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "detailWork",
+                "path": "/processManagement/workmanshipRoute/detailWorkmanshipRouteDetail",
+                "component": "/processManagement/workmanshipRoute/workmanshipRouteDetail",
+                "meta": {
+                    "title": "工艺详情",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "editESOP",
+                "path": "/processManagement/ESOP/editESOP",
+                "component": "/processManagement/ESOP/editESOP",
+                "meta": {
+                    "title": "编辑ESOP",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "processManagement_workingProcedure_addWorkingProcedure",
+                "path": "/processManagement/workingProcedure/addWorkingProcedure",
+                "component": "/processManagement/workingProcedure/addWorkingProcedure",
+                "meta": {
+                    "title": "新增工序",
+                    "icon": "icon-guanxi-dian",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "copyESOP",
+                "path": "/processManagement/ESOP/copyESOP",
+                "component": "/processManagement/ESOP/editESOP",
+                "meta": {
+                    "title": "复制ESOP",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "processManagement_workingProcedure_editWorkingProcedure",
+                "path": "/processManagement/workingProcedure/editWorkingProcedure",
+                "component": "/processManagement/workingProcedure/addWorkingProcedure",
+                "meta": {
+                    "title": "ESOP详情",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "processManagement_workmanshipRoute",
+                "path": "/processManagement/workmanshipRoute",
+                "component": "/processManagement/workmanshipRoute",
+                "meta": {
+                    "title": "工艺",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                }
+            },
+            {
+                "name": "upgradesESOP",
+                "path": "/processManagement/ESOP/upgradesESOP",
+                "component": "/processManagement/ESOP/editESOP",
+                "meta": {
+                    "title": "升级ESOP",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "processManagement_workingProcedure_editWorkingProcedure",
+                "path": "/processManagement/workingProcedure/editWorkingProcedure",
+                "component": "/processManagement/workingProcedure/addWorkingProcedure",
+                "meta": {
+                    "title": "编辑工序",
+                    "icon": "icon-guanxi-dian",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "processManagement_workingProcedure_cpoyWorkingProcedure",
+                "path": "/processManagement/workingProcedure/cpoyWorkingProcedure",
+                "component": "/processManagement/workingProcedure/addWorkingProcedure",
+                "meta": {
+                    "title": "复制工序",
+                    "icon": "icon-guanxi-dian",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "ESOP",
+                "path": "/processManagement/ESOP",
+                "component": "/processManagement/ESOP",
+                "meta": {
+                    "title": "ESOP",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                }
+            }
+        ]
+    },
+    {
+        "name": "productionManagement",
+        "path": "/productionManagement",
+        "redirect": "noRedirect",
+        "component": "/productionManagement",
+        "meta": {
+            "title": "生产管理",
+            "icon": "icon-shengchanguanli",
+            "doCache": false,
+            "link": null,
+            "closable": true,
+            "hidden": false
+        },
+        "children": [
+            {
+                "name": "1123213",
+                "path": "/productionManagement/jobOrderList/processEdit",
+                "component": "/productionManagement/jobOrderList/processEdit",
+                "meta": {
+                    "title": "编辑工艺",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "processPlann",
+                "path": "/productionManagement/jobOrderList/processPlanning",
+                "component": "/productionManagement/jobOrderList/processPlanning",
+                "meta": {
+                    "title": "工序计划",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "storesRequisition",
+                "path": "/productionManagement/jobOrderList/storesRequisition",
+                "component": "/productionManagement/jobOrderList/storesRequisition",
+                "meta": {
+                    "title": "领料申请单",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "scgl",
+                "path": "/productionManagement/scgl",
+                "redirect": "noRedirect",
+                "component": "/productionManagement/scgl",
+                "meta": {
+                    "title": "工单管理",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "scdd",
+                        "path": "/productionManagement/productionOrder",
+                        "component": "/productionManagement/productionOrder",
+                        "meta": {
+                            "title": "生产订单",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "bjscdd",
+                        "path": "/productionManagement/productionOrder/productionOrderEdit",
+                        "component": "/productionManagement/productionOrder/productionOrderEdit",
+                        "meta": {
+                            "title": "编辑生产订单",
+                            "icon": "",
+                            "doCache": true,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "jobOrder",
+                        "path": "/productionManagement/jobOrderList",
+                        "component": "/productionManagement/jobOrderList",
+                        "meta": {
+                            "title": "作业工单",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+
+                    {
+                        "name": "blxqd",
+                        "path": "/productionManagement/materialsPreparationOrder",
+                        "component": "/productionManagement/materialsPreparationOrder",
+                        "meta": {
+                            "title": "备料需求单",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "sclld",
+                        "path": "/productionManagement/materialsPreparationOrder/getMaterialsGenerate",
+                        "component": "/productionManagement/materialsPreparationOrder/getMaterialsGenerate",
+                        "meta": {
+                            "title": "生成领料单",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "blxdbjxq",
+                        "path": "/productionManagement/materialsPreparationOrder/materialsPreparationOrderEditDetails",
+                        "component": "/productionManagement/materialsPreparationOrder/materialsPreparationOrderEditDetails",
+                        "meta": {
+                            "title": "备料需求单编辑详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "productionManagement_productionOrder_productionOrderEdit",
+                        "path": "/productionManagement/productionOrder/productionOrderEdit",
+                        "component": "/productionManagement/productionOrder/productionOrderEdit",
+                        "meta": {
+                            "title": "编辑生产订单",
+                            "icon": "",
+                            "doCache": true,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "operationTas",
+                        "path": "/productionManagement/operationTaskList",
+                        "component": "/productionManagement/operationTaskList",
+                        "meta": {
+                            "title": "工序任务单",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "productionManagement_productionOrder_productionOrderDetail",
+                        "path": "/productionManagement/productionOrder/productionOrderDetail",
+                        "component": "/productionManagement/productionOrder/productionOrderDetail",
+                        "meta": {
+                            "title": "生产订单详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "scddxz",
+                        "path": "/productionManagement/productionOrder/productionOrderAdd",
+                        "component": "/productionManagement/productionOrder/productionOrderEdit",
+                        "meta": {
+                            "title": "新增生产订单",
+                            "icon": "",
+                            "doCache": true,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "workOrderdet",
+                "path": "/productionManagement/jobOrderList/jobOrderListDetail",
+                "component": "/productionManagement/jobOrderList/jobOrderListDetail",
+                "meta": {
+                    "title": "作业工单详情",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "operationdet",
+                "path": "/productionManagement/operationTaskList/operationTaskListDetail",
+                "component": "/productionManagement/operationTaskList/operationTaskListDetail",
+                "meta": {
+                    "title": "工序任务单详情",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "ProductionPe",
+                "path": "/productionManagement/ProductionPe",
+                "redirect": "noRedirect",
+                "component": "/productionManagement/ProductionPe",
+                "meta": {
+                    "title": "生产实绩",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "detailProductionProcesses",
+                        "path": "/productionManagement/productionPerformance/detailProductionProcesses",
+                        "component": "/productionManagement/productionPerformance/detailProductionProcesses",
+                        "meta": {
+                            "title": "详情-工序BOM",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "editProductionWorkReportingDetails",
+                        "path": "/productionManagement/productionPerformance/editProductionWorkReportingDetails",
+                        "component": "/productionManagement/productionPerformance/editProductionWorkReportingDetails",
+                        "meta": {
+                            "title": "修改生产报工明细",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "processHandoverForm",
+                        "path": "/productionManagement/processHandoverForm",
+                        "component": "/productionManagement/processHandoverForm",
+                        "meta": {
+                            "title": "工序交接单",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "scbgmx",
+                        "path": "/productionManagement/productionPerformance/productionWorkReportingDetails",
+                        "component": "/productionManagement/productionPerformance/productionWorkReportingDetails",
+                        "meta": {
+                            "title": "生产报工明细",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "scztgl",
+                        "path": "/productionManagement/abnormalManagement/productionSuspensionRecord",
+                        "component": "/productionManagement/abnormalManagement/productionSuspensionRecord",
+                        "meta": {
+                            "title": "生产暂停记录",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "workOrderdet",
+                "path": "/productionManagement/jobOrderList/jobOrderListDetail",
+                "component": "/productionManagement/jobOrderList/jobOrderListDetail",
+                "meta": {
+                    "title": "作业工单详情",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": true
+                }
+            },
+            {
+                "name": "ProductionBase",
+                "path": "/productionManagement/ProductionBase",
+                "redirect": "noRedirect",
+                "component": "/productionManagement/ProductionBase",
+                "meta": {
+                    "title": "基础数据",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "activityTypeDetail",
+                        "path": "/processManagement/activityType/activityTypeDetail",
+                        "component": "/processManagement/activityType/activityTypeDetail",
+                        "meta": {
+                            "title": "作业单元类型详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "addActivityTypeDetail",
+                        "path": "/processManagement/activityType/addActivityTypeDetail",
+                        "component": "/processManagement/activityType/activityTypeDetail",
+                        "meta": {
+                            "title": "新增作业单元类型",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "editActivityTypeDetail",
+                        "path": "/processManagement/activityType/editActivityTypeDetail",
+                        "component": "/processManagement/activityType/activityTypeDetail",
+                        "meta": {
+                            "title": "编辑作业单元类型",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "zydylx",
+                        "path": "/processManagement/activityType",
+                        "component": "/processManagement/activityType",
+                        "meta": {
+                            "title": "作业单元类型",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "zydy",
+                        "path": "/processManagement/activity",
+                        "component": "/processManagement/activity",
+                        "meta": {
+                            "title": "作业单元",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "scyclx",
+                        "path": "/productionManagement/abnormalManagement/productionExceptionType",
+                        "component": "/productionManagement/abnormalManagement/productionExceptionType",
+                        "meta": {
+                            "title": "生产异常类型",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "workshopMana",
+                        "path": "/productionManagement/workshopManagementAuthority",
+                        "component": "/productionManagement/workshopManagementAuthority",
+                        "meta": {
+                            "title": "车间管理权限",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "workshopOper",
+                        "path": "/productionManagement/workshopOperationPermissions",
+                        "component": "/productionManagement/workshopOperationPermissions",
+                        "meta": {
+                            "title": "车间操作权限",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "GDGL",
+                        "path": "/productionManagement/workSectionManagement",
+                        "component": "/productionManagement/workSectionManagement",
+                        "meta": {
+                            "title": "工段管理",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "qualityInspection",
+        "path": "/qualityInspection",
+        "redirect": "noRedirect",
+        "meta": {
+            "title": "质量管理",
+            "icon": "icon-wodecaidan",
+            "doCache": false,
+            "link": null,
+            "closable": true,
+            "hidden": false
+        },
+        "children": [
+            {
+                "name": "jysj",
+                "path": "/qualityInspection/jysj",
+                "redirect": "noRedirect",
+                "component": "/qualityInspection/jysj",
+                "meta": {
+                    "title": "检验实绩",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "zbts",
+                        "path": "/qualityInspection/inspectionTangibleAchievement/equipmentDebugging",
+                        "component": "/qualityInspection/inspectionTangibleAchievement/equipmentDebugging",
+                        "meta": {
+                            "title": "装备调试",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "zbtsxq",
+                        "path": "/qualityInspection/inspectionTangibleAchievement/equipmentDebuggingDetail",
+                        "component": "/qualityInspection/inspectionTangibleAchievement/equipmentDebuggingDetail",
+                        "meta": {
+                            "title": "装备调试详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "tsys",
+                        "path": "/qualityInspection/inspectionTangibleAchievement/debuggingAcceptance",
+                        "component": "/qualityInspection/inspectionTangibleAchievement/debuggingAcceptance",
+                        "meta": {
+                            "title": "调试验收",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "tsysxq",
+                        "path": "/qualityInspection/inspectionTangibleAchievement/debuggingAcceptanceDetail",
+                        "component": "/qualityInspection/inspectionTangibleAchievement/debuggingAcceptanceDetail",
+                        "meta": {
+                            "title": "调试验收详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "qualityInspection_InspectionManagement",
+                "path": "/qualityInspection/InspectionManagement",
+                "redirect": "noRedirect",
+                "component": "/qualityInspection/InspectionManagement",
+                "meta": {
+                    "title": "IQC检验管理",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "IQCZJSJxq",
+                        "path": "/qualityInspection/inspectionManagement/iQCDetail",
+                        "component": "/qualityInspection/inspectionManagement/iQCDetail",
+                        "meta": {
+                            "title": "IQC检验实绩详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "qualityInspection_InspectionManagement_IQCInspectionPerformance",
+                        "path": "/qualityInspection/inspectionManagement/iQCInspectionPerformance",
+                        "component": "/qualityInspection/inspectionManagement/iQCInspectionPerformance",
+                        "meta": {
+                            "title": "IQC检验实绩",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "llsqd",
+                "path": "/qualityInspection/storesRequisition",
+                "component": "/qualityInspection/storesRequisition",
+                "meta": {
+                    "title": "领料申请单",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                }
+            },
+            {
+                "name": "zjrw",
+                "path": "/zjrw",
+                "redirect": "noRedirect",
+                "component": "/zjrw",
+                "meta": {
+                    "title": "质检任务",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "gczj",
+                        "path": "/qualityInspection/qualityInspectionTask/processCheck",
+                        "component": "/qualityInspection/qualityInspectionTask/processCheck",
+                        "meta": {
+                            "title": "过程质检",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "mxcx",
+                        "path": "/qualityInspection/qualityInspectionTask/components/detailQuery",
+                        "component": "/qualityInspection/qualityInspectionTask/components/detailQuery",
+                        "meta": {
+                            "title": "质检明细",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "zyxq",
+                        "path": "/qualityInspection/qualityInspectionTask/components/homeDetails",
+                        "component": "/qualityInspection/qualityInspectionTask/components/homeDetails",
+                        "meta": {
+                            "title": "主页详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "cpzj",
+                        "path": "/qualityInspection/qualityInspectionTask/productInspection",
+                        "component": "/qualityInspection/qualityInspectionTask/productInspection",
+                        "meta": {
+                            "title": "成品质检",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "mxxq",
+                        "path": "/qualityInspection/qualityInspectionTask/components/detailsView",
+                        "component": "/qualityInspection/qualityInspectionTask/components/detailsView",
+                        "meta": {
+                            "title": "明细详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "defectiveProductsManagement",
+                "path": "/qualityInspection/defectiveProductsManagement",
+                "redirect": "noRedirect",
+                "component": "/qualityInspection/defectiveProductsManagement",
+                "meta": {
+                    "title": "不良品管理",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "reworkDetails",
+                        "path": "/qualityInspection/defectiveProductsManagement/reworkDetails",
+                        "component": "/qualityInspection/defectiveProductsManagement/reworkDetails",
+                        "meta": {
+                            "title": "返修明细",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "reworkOrder",
+                        "path": "/qualityInspection/defectiveProductsManagement/reworkOrder",
+                        "component": "/qualityInspection/defectiveProductsManagement/reworkOrder",
+                        "meta": {
+                            "title": "返修单",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "qualityInspection_BasicData",
+                "path": "/qualityInspection/BasicData",
+                "redirect": "noRedirect",
+                "component": "/qualityInspection/BasicData",
+                "meta": {
+                    "title": "基础数据",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "qualityInspection_BasicData_InspectionScheme_components_newScheme",
+                        "path": "/qualityInspection/BasicData/InspectionScheme/components/newScheme",
+                        "component": "/qualityInspection/BasicData/InspectionScheme/components/newScheme",
+                        "meta": {
+                            "title": "新增方案",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "qualityInspection_BasicData_InspectionType_components_newDetails",
+                        "path": "/qualityInspection/BasicData/InspectionType/components/newDetails",
+                        "component": "/qualityInspection/BasicData/InspectionType/components/newDetails",
+                        "meta": {
+                            "title": "新增检验",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "qualityInspection_BasicData_projectMaintenance",
+                        "path": "/qualityInspection/BasicData/projectMaintenance",
+                        "component": "/qualityInspection/BasicData/projectMaintenance",
+                        "meta": {
+                            "title": "质检项目",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "qualityInspection_BasicData_InspectionScheme",
+                        "path": "/qualityInspection/BasicData/InspectionScheme",
+                        "component": "/qualityInspection/BasicData/InspectionScheme",
+                        "meta": {
+                            "title": "质检方案",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "qualityInspection_BasicData_InspectionScheme_components_schemeEditing",
+                        "path": "/qualityInspection/BasicData/InspectionScheme/components/schemeEditing",
+                        "component": "/qualityInspection/BasicData/InspectionScheme/components/schemeEditing",
+                        "meta": {
+                            "title": "编辑方案",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "qualityInspection_BasicData_InspectionType_components_enterEditing",
+                        "path": "/qualityInspection/BasicData/InspectionType/components/enterEditing",
+                        "component": "/qualityInspection/BasicData/InspectionType/components/enterEditing",
+                        "meta": {
+                            "title": "编辑检验",
+                            "icon": "icon-guanxi-dian",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "qualityInspection_BasicData_InspectionScheme_components_newDetails",
+                        "path": "/qualityInspection/BasicData/InspectionScheme/components/newDetails",
+                        "component": "/qualityInspection/BasicData/InspectionScheme/components/newDetails",
+                        "meta": {
+                            "title": "方案详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "qualityInspection_BasicData_InspectionType",
+                        "path": "/qualityInspection/BasicData/InspectionType",
+                        "component": "/qualityInspection/BasicData/InspectionType",
+                        "meta": {
+                            "title": "检验类型",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "qualityInspection_BasicData_InspectionType_components_qualityDetails",
+                        "path": "/qualityInspection/BasicData/InspectionType/components/qualityDetails",
+                        "component": "/qualityInspection/BasicData/InspectionType/components/qualityDetails",
+                        "meta": {
+                            "title": "检验详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "qua_yuanyin",
+                        "path": "/qualityInspection/BasicData/DefectClassification",
+                        "component": "/qualityInspection/BasicData/DefectClassification",
+                        "meta": {
+                            "title": "缺陷类型",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "qua_fenlei",
+                        "path": "/qualityInspection/BasicData/CauseDefect",
+                        "component": "/qualityInspection/BasicData/CauseDefect",
+                        "meta": {
+                            "title": "缺陷原因",
+                            "icon": "icon-guanxi-dian",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "warehouseManagement",
+        "path": "/warehouseManagement",
+        "redirect": "noRedirect",
+        "meta": {
+            "title": "仓储管理",
+            "icon": "icon-cangchuguanli",
+            "doCache": false,
+            "link": null,
+            "closable": true,
+            "hidden": false
+        },
+        "children": [
+            {
+                "name": "rkgl",
+                "path": "/warehouseManagement/rkgl",
+                "redirect": "noRedirect",
+                "component": "/warehouseManagement/rkgl",
+                "meta": {
+                    "title": "入库管理",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "wgrkd",
+                        "path": "/warehouseManagement/storageManagement/completedStorageTicket",
+                        "component": "/warehouseManagement/storageManagement/completedStorageTicket",
+                        "meta": {
+                            "title": "完工入库单",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "wldhd",
+                        "path": "/warehouseManagement/storageManagement/materialArrivalOrder",
+                        "component": "/warehouseManagement/storageManagement/materialArrivalOrder",
+                        "meta": {
+                            "title": "物料到货单",
+                            "icon": "",
+                            "doCache": null,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "wlrkd",
+                        "path": "/warehouseManagement/storageManagement/materialInStorageOrder",
+                        "component": "/warehouseManagement/storageManagement/materialInStorageOrder",
+                        "meta": {
+                            "title": "物料入库单",
+                            "icon": "",
+                            "doCache": null,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "wlrkdrk",
+                        "path": "/warehouseManagement/storageManagement/materialInStorageOrder/materialInStorageOrderEdit",
+                        "component": "/warehouseManagement/storageManagement/materialInStorageOrder/materialInStorageOrderEdit",
+                        "meta": {
+                            "title": "入库",
+                            "icon": "",
+                            "doCache": null,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "xzrkwld",
+                        "path": "/warehouseManagement/storageManagement/materialInStorageOrder/addMaterialInStorageOrder",
+                        "component": "/warehouseManagement/storageManagement/materialInStorageOrder/addMaterialInStorageOrder",
+                        "meta": {
+                            "title": "新增物料入库单",
+                            "icon": "",
+                            "doCache": null,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "rkxq",
+                        "path": "/warehouseManagement/storageManagement/materialInStorageOrder/inStorageDetail",
+                        "component": "/warehouseManagement/storageManagement/materialInStorageOrder/inStorageDetail",
+                        "meta": {
+                            "title": "入库详情",
+                            "icon": "",
+                            "doCache": null,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "wlthd",
+                        "path": "/warehouseManagement/storeReturnNote",
+                        "component": "/warehouseManagement/storeReturnNote",
+                        "meta": {
+                            "title": "物料退货单",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "kcgl",
+                "path": "/warehouseManagement/kcgl",
+                "redirect": "noRedirect",
+                "component": "/warehouseManagement/kcgl",
+                "meta": {
+                    "title": "库存管理",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "crkmx",
+                        "path": "/warehouseManagement/inventoryManagement/warehouseOutInDetails",
+                        "component": "/warehouseManagement/inventoryManagement/warehouseOutInDetails",
+                        "meta": {
+                            "title": "出入库明细",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "kcbb",
+                        "path": "/warehouseManagement/inventoryManagement/inventoryReports",
+                        "component": "/warehouseManagement/inventoryManagement/inventoryReports",
+                        "meta": {
+                            "title": "库存报表",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "pd",
+                        "path": "/warehouseManagement/inventoryManagement/inventorySheet",
+                        "component": "/warehouseManagement/inventoryManagement/inventorySheet",
+                        "meta": {
+                            "title": "盘点",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "bjpd",
+                        "path": "/warehouseManagement/inventoryManagement/inventorySheet/editTakeStock",
+                        "component": "/warehouseManagement/inventoryManagement/inventorySheet/editTakeStock",
+                        "meta": {
+                            "title": "编辑盘点",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "pdxq",
+                        "path": "/warehouseManagement/inventoryManagement/inventorySheet/detailStock",
+                        "component": "/warehouseManagement/inventoryManagement/inventorySheet/detailStock",
+                        "meta": {
+                            "title": "盘点详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "warehouseManagement_basicData",
+                "path": "/warehouseManagement_basicData",
+                "redirect": "noRedirect",
+                "component": "/warehouseManagement_basicData",
+                "meta": {
+                    "title": "基础信息",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "warehouseManagement_basicData_moveType",
+                        "path": "/warehouseManagement/basicData/moveType",
+                        "component": "/warehouseManagement/basicData/moveType",
+                        "meta": {
+                            "title": "移动类型",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "warehouseManagement_basicData_binType",
+                        "path": "/warehouseManagement/basicData/binType",
+                        "component": "/warehouseManagement/basicData/binType",
+                        "meta": {
+                            "title": "仓位类型",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "warehouseManagement_basicData_binSettings",
+                        "path": "/warehouseManagement/basicData/binSettings",
+                        "component": "/warehouseManagement/basicData/binSettings",
+                        "meta": {
+                            "title": "仓位设置",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "warehouseManagement_basicData_locationSetting",
+                        "path": "/warehouseManagement/basicData/locationSetting",
+                        "component": "/warehouseManagement/basicData/locationSetting",
+                        "meta": {
+                            "title": "库位设置",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "ckgl",
+                "path": "/warehouseManagement/ckgl",
+                "redirect": "noRedirect",
+                "component": "/warehouseManagement/ckgl",
+                "meta": {
+                    "title": "出库管理",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "llckd",
+                        "path": "/warehouseManagement/outStorageManagement/getMaterialsOutStorage",
+                        "component": "/warehouseManagement/outStorageManagement/getMaterialsOutStorage",
+                        "meta": {
+                            "title": "领料出库单",
+                            "icon": "",
+                            "doCache": null,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "llckdxq",
+                        "path": "/warehouseManagement/outStorageManagement/getMaterialsOutStorage/getMaterialsOutStorageDetail",
+                        "component": "/warehouseManagement/outStorageManagement/getMaterialsOutStorage/getMaterialsOutStorageDetail",
+                        "meta": {
+                            "title": "领料出库单详情",
+                            "icon": "",
+                            "doCache": null,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "llckdtlbj",
+                        "path": "/warehouseManagement/outStorageManagement/getMaterialsOutStorage/materialsReturned",
+                        "component": "/warehouseManagement/outStorageManagement/getMaterialsOutStorage/materialsReturned",
+                        "meta": {
+                            "title": "领料出库单编辑",
+                            "icon": "",
+                            "doCache": null,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "systemManage",
+        "path": "/systemManage",
+        "redirect": "noRedirect",
+        "component": "/systemManage",
+        "meta": {
+            "title": "系统管理",
+            "icon": "icon-xitongguanli",
+            "doCache": false,
+            "link": null,
+            "closable": true,
+            "hidden": false
+        },
+        "children": [
+            {
+                "name": "siteModle",
+                "path": "/siteModle",
+                "redirect": "noRedirect",
+                "component": "/siteModle",
+                "meta": {
+                    "title": "企业建模",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "systemManage_buildBusiness",
+                        "path": "/systemManage/buildBusiness",
+                        "component": "/systemManage/buildBusiness",
+                        "meta": {
+                            "title": "组织",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "systemManage_teamGroup",
+                        "path": "/systemManage/teamGroup",
+                        "component": "/systemManage/teamGroup",
+                        "meta": {
+                            "title": "班组",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "userManageme",
+                "path": "/userManageme",
+                "redirect": "noRedirect",
+                "component": "/userManageme",
+                "meta": {
+                    "title": "用户管理",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "editUser",
+                        "path": "/systemManage/userManagement/user/editUser",
+                        "component": "/systemManage/userManagement/user/addUser",
+                        "meta": {
+                            "title": "编辑用户",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "station",
+                        "path": "/systemManage/userManagement/station",
+                        "component": "/systemManage/userManagement/station",
+                        "meta": {
+                            "title": "岗位",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "userDetail",
+                        "path": "/systemManage/userManagement/user/userDetail",
+                        "component": "/systemManage/userManagement/user/addUser",
+                        "meta": {
+                            "title": "用户详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "department",
+                        "path": "/systemManage/userManagement/department",
+                        "component": "/systemManage/userManagement/department",
+                        "meta": {
+                            "title": "部门",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "user",
+                        "path": "/systemManage/userManagement/user",
+                        "component": "/systemManage/userManagement/user",
+                        "meta": {
+                            "title": "用户",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "role",
+                        "path": "/systemManage/userManagement/rolePermissions",
+                        "component": "/systemManage/userManagement/rolePermissions",
+                        "meta": {
+                            "title": "角色权限",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "adduser",
+                        "path": "/systemManage/userManagement/user/addUser",
+                        "component": "/systemManage/userManagement/user/addUser",
+                        "meta": {
+                            "title": "新增用户",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "messageManageme",
+                "path": "/messageManageme",
+                "redirect": "noRedirect",
+                "component": "/messageManageme",
+                "meta": {
+                    "title": "消息管理",
+                    "icon": "",
+                    "noCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "messageTemplate",
+                        "path": "/systemManage/messageManageme/messageTemplate",
+                        "component": "/systemManage/messageManageme/messageTemplate",
+                        "meta": {
+                            "title": "消息模板",
+                            "icon": "",
+                            "noCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "stationMessageDetail",
+                        "path": "/systemManage/messageManageme/stationMessageDetail",
+                        "component": "/systemManage/messageManageme/stationMessageDetail",
+                        "meta": {
+                            "title": "消息详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "messageNotificationConfiguration",
+                        "path": "/systemManage/messageManageme/messageNotificationConfiguration",
+                        "component": "/systemManage/messageManageme/messageNotificationConfiguration",
+                        "meta": {
+                            "title": "消息通知配置",
+                            "icon": "",
+                            "noCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "messageDistributionLog",
+                        "path": "/systemManage/messageManageme/messageDistributionLog",
+                        "component": "/systemManage/messageManageme/messageDistributionLog",
+                        "meta": {
+                            "title": "消息发送日志",
+                            "icon": "",
+                            "noCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "xxfsrzxq",
+                        "path": "/systemManage/messageManageme/messageDistributionLog/distributionLogDetail",
+                        "component": "/systemManage/messageManageme/messageDistributionLog/distributionLogDetail",
+                        "meta": {
+                            "title": "消息发送日志详情",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    },
+                    {
+                        "name": "messageMail",
+                        "path": "/systemManage/messageManageme/messageMail",
+                        "component": "/systemManage/messageManageme/messageMail",
+                        "meta": {
+                            "title": "站内信",
+                            "icon": "",
+                            "noCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "generalSet",
+                "path": "/generalSet",
+                "redirect": "noRedirect",
+                "component": "/generalSet",
+                "meta": {
+                    "title": "通用配置",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "menu",
+                        "path": "/systemManage/userManagement/menu",
+                        "component": "/systemManage/userManagement/menu",
+                        "meta": {
+                            "title": "菜单",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "systemManage_systemConfiguration",
+                        "path": "/systemManage/systemConfiguration",
+                        "component": "/systemManage/systemConfiguration",
+                        "meta": {
+                            "title": "参数配置",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "zdyzd",
+                "path": "/userManageme/zdyzd",
+                "redirect": "noRedirect",
+                "component": "/userManageme/zdyzd",
+                "meta": {
+                    "title": "自定义配置",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "scddpz",
+                        "path": "/systemManage/diyFiled/diyProductOrder",
+                        "component": "/systemManage/diyFiled/diyProductOrder",
+                        "meta": {
+                            "title": "生产订单字段",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "wlzdpz",
+                        "path": "/systemManage/diyFiled/diyMaterial",
+                        "component": "/systemManage/diyFiled/diyMaterial",
+                        "meta": {
+                            "title": "物料字段",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "rules",
+                        "path": "/systemManage/documentConfiguration/numberingRule",
+                        "component": "/systemManage/documentConfiguration/numberingRule",
+                        "meta": {
+                            "title": "编码规则",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "dymb",
+                        "path": "/systemManage/customPrint",
+                        "component": "/systemManage/customPrint",
+                        "meta": {
+                            "title": "打印模版",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "dymbbj",
+                        "path": "/systemManage/customPrint/customPrintEdit",
+                        "component": "/systemManage/customPrint/customPrintEdit",
+                        "meta": {
+                            "title": "编辑打印模版",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": true
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "reportManager",
+        "path": "/reportManager",
+        "redirect": "noRedirect",
+        "component": "/reportManager",
+        "meta": {
+            "title": "报表中心",
+            "icon": "icon-baobiaoguanli",
+            "doCache": false,
+            "link": null,
+            "closable": true,
+            "hidden": false
+        },
+        "children": [
+            {
+                "name": "JDBB",
+                "path": "/reportManager/JDBB",
+                "redirect": "noRedirect",
+                "component": "/reportManager/JDBB",
+                "meta": {
+                    "title": "进度报表",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "xnzxzt",
+                        "path": "/reportManager/executionStatus",
+                        "component": "/reportManager/executionStatus",
+                        "meta": {
+                            "title": "项目执行状态报表",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "TJBB",
+                "path": "/reportManager/TJBB",
+                "redirect": "noRedirect",
+                "component": "/reportManager/TJBB",
+                "meta": {
+                    "title": "统计报表",
+                    "icon": "",
+                    "doCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "sccjtj",
+                        "path": "/reportManager/productionStatistics",
+                        "component": "/reportManager/productionStatistics",
+                        "meta": {
+                            "title": "车间生产统计报表",
+                            "icon": "",
+                            "doCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

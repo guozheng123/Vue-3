@@ -1,0 +1,43 @@
+@import '_rest.less';
+@import './transition.less';
+@import './common.less';
+@import './_antd.less';
+@import './_antd_variable.less';
+@import './_tpf_scrollbar.less';
+@import './_tailwind.less';
+
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: #2c3e50;
+}
+
+body {
+    #nprogress {
+        .bar {
+            height: 3px;
+            background: var(--ant-primary-color);
+        }
+
+        .spinner-icon {
+            border-top-color: var(--ant-primary-color);
+            border-left-color: var(--ant-primary-color);
+        }
+    }
+}
+
+:root {
+    --animate-duration: 0.3s;
+    --color-bg-2: #eee;
+    --color-border: #ddd;
+}
+
+

@@ -1,0 +1,60 @@
+<template>
+    <div>
+        <TpfModal
+            class="DelModal"
+            v-model:visible="visible"
+            height="280px"
+            title="详细报告"
+            :footer="null"
+        >
+            <a-table
+                :dataSource="dataSource"
+                :columns="columns"
+                :scroll="{ y: 200 }"
+                :pagination="false"
+                rowKey="groupCode"
+                size="small"
+            />
+        </TpfModal>
+    </div>
+</template>
+
+<script setup lang="ts">
+    import { ref } from 'vue';
+    import type { TpfColumnType } from '@/types';
+    import TpfModal from '@/components/TpfModal/index.vue';
+    import { useRef } from '@/hooks';
+    const [visible, setVisible] = useRef(false);
+    type DataItem = {
+        groupCode: string;
+        deleteType: number;
+        message: string;
+    };
+    const columns: TpfColumnType[] = [
+        { title: '消息', width: 100, dataIndex: 'message', key: 'message', fixed: 'left' },
+        {
+            title: '结果',
+            width: 60,
+            dataIndex: 'result',
+            key: 'result',
+            fixed: 'left'
+        },
+        { title: '原因', dataIndex: 'reason', width: 150 }
+    ];
+    const dataSource = ref<DataItem[]>();
+    const open = (v: any) => {
+        dataSource.value = v;
+        setVisible(!visible.value);
+    };
+    defineExpose({
+        open
+    });
+</script>
+
+<style scoped lang="less">
+    .DelModal {
+        .ant-modal-body {
+            padding-top: 24px !important;
+        }
+    }
+</style>

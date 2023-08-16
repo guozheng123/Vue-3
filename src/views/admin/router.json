@@ -1,0 +1,73 @@
+[
+    {
+        "name": "admin",
+        "path": "/admin",
+        "redirect": "/admin/entityRelationship",
+        "component": "/admin",
+        "meta": {
+            "title": "中台",
+            "icon": "icon-xiangmuguanli",
+            "noCache": false,
+            "link": null,
+            "closable": true,
+            "hidden": false
+        },
+        "children": [
+            {
+                "name": "admin_entityRelationship",
+                "path": "/admin/entityRelationship",
+                "redirect": "/admin/entityRelationship/entityManage",
+                "component": "/admin/entityRelationship",
+                "meta": {
+                    "title": "实体关系",
+                    "icon": "icon-xiangmuguanli",
+                    "noCache": false,
+                    "link": null,
+                    "closable": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "name": "stgl",
+                        "path": "/admin/entityRelationship/entityManage",
+                        "component": "/admin/entityRelationship/entityManage",
+                        "meta": {
+                            "title": "实体管理",
+                            "icon": "",
+                            "noCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "stsx",
+                        "path": "/admin/entityRelationship/entityAttribute",
+                        "component": "/admin/entityRelationship/entityAttribute",
+                        "meta": {
+                            "title": "实体属性",
+                            "icon": "",
+                            "noCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    },
+                    {
+                        "name": "gxgl",
+                        "path": "/admin/entityRelationship/relationshipManagement",
+                        "component": "/admin/entityRelationship/relationshipManagement",
+                        "meta": {
+                            "title": "关系管理",
+                            "icon": "",
+                            "noCache": false,
+                            "link": null,
+                            "closable": true,
+                            "hidden": false
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

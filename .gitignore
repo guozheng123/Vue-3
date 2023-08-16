@@ -1,0 +1,15 @@
+node_modules
+.DS_Store
+dist
+*.local
+
+package-lock.json
+yarn.lock
+auto-imports.d
+src/types/components.d.ts
+.history
+stats.html
+aa.json
+checkUpdate.*
+
+# .env.development

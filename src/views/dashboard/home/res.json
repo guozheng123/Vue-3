@@ -1,0 +1,11 @@
+{
+    "success": true,
+    "errorCode": "0",
+    "errorMessage": "",
+    "timeStamp": "2023-03-09 18:26:16",
+    "data": {
+        "list": [
+            { "id": "TEST1", "label": "测试1", "children": [{ "id": "TEST2", "label": "测试2" }] }
+        ]
+    }
+}

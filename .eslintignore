@@ -1,0 +1,16 @@
+.eslintrc.js
+shims-vue.d.ts
+vite.config.ts
+__tests__
+jest.config.js
+babel.config.js
+
+src/assets/iconfont/*.js
+/*.json
+mock/*
+dist
+components.d.ts
+.vscode
+.husky
+assets/*
+public/*
