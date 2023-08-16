@@ -1,6 +1,4 @@
-规范
-
-git rm --cached src/types/components.d.ts
+规范 // 白健伟测试 111111 git rm --cached src/types/components.d.ts
 
 -   组件名字采用大驼峰(除了 index)
 
